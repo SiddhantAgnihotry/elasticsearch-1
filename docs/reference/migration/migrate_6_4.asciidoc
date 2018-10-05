@@ -72,7 +72,7 @@ formats that do not encapsulate the script inside a `script` json object.
 === REST Client
 
 [float]
-==== Old low level ++performRequest++s deprecated
+==== Old low level ++performRequest++ deprecated
 The versions of `performRequest` and `performRequestAsync` that were in the
 low level client in 6.3 have been deprecated in favor of
 `performRequest(Request)` and `performRequestAsync(Request, ActionListener)`.
